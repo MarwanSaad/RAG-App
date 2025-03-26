@@ -21,7 +21,10 @@ cp .env.example .env
 ```
 then set your own values in the created .env file
 ex: APP_NAME = "Set your own value"
-
+### To run FastAPI server:
+```
+uvicorn main:app --reload --host 0.0.0.0 
+```
 
 
 
